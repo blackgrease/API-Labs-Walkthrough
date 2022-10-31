@@ -4,18 +4,18 @@ crAPI is a API that is dilberatly vulnerable with OWASP API Top 10 security risk
 
 
 
-#### Business Functionality
+## Business Functionality
 
 The crAPI in terms of "business" functionality, is made to allow users to manage their cars in terms of purchasing accessories, service and send any enquires regarding their car. There is a community space whereby users of the API can interact with each other. 
 
 
 
-#### Installation 
+## Installation 
 
 I will not go over the installation process as it is already covered by the Project Developers. crAPI can be found at : https://github.com/OWASP/crAPI 
 
 
-#### OWASP Vulnerabilities
+## OWASP Vulnerabilities
 
 The TOp 10 OWASP Vulnerabilities concerning APIs are 
 
@@ -35,7 +35,7 @@ For each category I will give an overview along with other resources in order to
 
 
 
-#### Enviornmental Awareness  
+## Enviornmental Awareness  
 
     1. Do you understand the purpose of API? 
     2  What are the assets / type of information that would be protected ? Usernames, email addresses, account information ??? 
@@ -46,7 +46,21 @@ For each category I will give an overview along with other resources in order to
 
 
 
-#### Tools utilized 
+## Procedure
+
+There is no right or wrong procedure, at least not specifically. What works for you may not work for others. Gnerally there is one foundational step that determines how smooth the road ahead is. Understand what is going on. So the first step before attacking an API is understand the 
+- endpoints
+- operations
+- mechanism utilized
+- assets that may need to be protected / that are contained. 
+    
+**Step 1**
+Get Documentation. Either what is aviable publicly or reverse engineer the API. 
+
+**Step 2**
+Go get em tiger
+
+## Tools utilized 
 
     1. Burp Suite (JWT Editor extenion, Sequncer, Repeater, Decoder)
     2. Postman
@@ -57,7 +71,7 @@ For each category I will give an overview along with other resources in order to
     7. Online Search Engines / Shodan
     8. JWT_Tool
     9. Arjun
-
+    10. https://jwt.io
 
 
 #### Challenge Questions 
@@ -68,6 +82,6 @@ Challenges for the crAPI can be found at : https://github.com/OWASP/crAPI
 
 
 
-#### Important Notes
+## Important Notes
 
 Pay attention to detail. Details matter
