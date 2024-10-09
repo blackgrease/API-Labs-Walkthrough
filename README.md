@@ -19,16 +19,16 @@ I will not go over the installation process as it is already covered by the Proj
 
 The TOp 10 OWASP Vulnerabilities concerning APIs are 
 
-    1. Broken Object Level Authorization
-    2. Broken User Authentication
-    3. Excessive Data Exposure
-    4. Lack of Resources & Rate Limiting
-    5. Broken Function Level Authorization
-    6. Mass Assignment
-    7. Secrutiy Misconfigurations
-    8. Injections
-    9. Improper Assets Management
-    10. Insufficient Logging & Monitoring
+1. Broken Object Level Authorization
+2. Broken User Authentication
+3. Excessive Data Exposure
+4. Lack of Resources & Rate Limiting
+5. Broken Function Level Authorization
+6. Mass Assignment
+7. Secrutiy Misconfigurations
+8. Injections
+9. Improper Assets Management
+10. Insufficient Logging & Monitoring
 
 For each category I will give an overview along with other resources in order to explain the general concepts and then finalize by tailoring the vulnerability to crAPI. 
 
@@ -37,11 +37,11 @@ For each category I will give an overview along with other resources in order to
 
 ## Enviornmental Awareness  
 
-    1. Do you understand the purpose of API? 
-    2  What are the assets / type of information that would be protected ? Usernames, email addresses, account information ??? 
-    3. What documentation is available?
-    4. Can you add any information to any documentation provided ?
-    5. What actions can be taken? Email changes/ profile picture uploads / Password Resets etc
+1. Do you understand the purpose of API? 
+2  What are the assets / type of information that would be protected ? Usernames, email addresses, account information ??? 
+3. What documentation is available?
+4. Can you add any information to any documentation provided ?
+5. What actions can be taken? Email changes/ profile picture uploads / Password Resets etc
 
 
 
